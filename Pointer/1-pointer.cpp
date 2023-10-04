@@ -4,7 +4,8 @@ using namespace std;
 int main()
 {
     int y = 5;
-    int *yPtr = &y;
+    int *yPtr;
+    yPtr = &y;
     cout << "y addr: " << &y << endl;
     cout << "y val: " << y << endl;
     cout << "yPtr addr: " << &yPtr << endl;

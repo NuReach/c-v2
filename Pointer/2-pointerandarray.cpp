@@ -11,5 +11,6 @@ int main()
     cout << "value of ptr:" << *ptr << endl;
     cout << "value of ptr:" << ptr[4] << endl;
     cout << "value of arr:" << numbers[4] << endl;
+    cout << "value of arr:" << &numbers[0] << endl;
     return 0;
 }
